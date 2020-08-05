@@ -1,11 +1,18 @@
 (function () {
-  const doc = document.documentElement
+  const doc = document
+  const rootEl = doc.documentElement
 
-  doc.classList.remove('no-js')
-  doc.classList.add('js')
+  const copyright = doc.getElementById('copyright-year')
+
+  rootEl.classList.remove('no-js')
+  rootEl.classList.add('js')
+
+  if (copyright) {
+    copyright.innerText = new Date().getFullYear()
+  }
 
   // Reveal animations
-  if (document.body.classList.contains('has-animations')) {
+  if (doc.body.classList.contains('has-animations')) {
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal()
 
