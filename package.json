@@ -1,22 +1,21 @@
 {
   "name": "hyper-weavers",
   "version": "0.0.1",
-  "description": "Hyper Weavers website.",
+  "description": "Hyper Weavers official website.",
   "homepage": "https://www.hyperweavers.com/",
   "author": {
     "name": "Hyper Weavers",
-    "email": "hyperweavers@gmail.com",
+    "email": "info@hyperweavers.com",
     "url": "https://www.hyperweavers.com/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyperWeavers/hyperweavers.github.io.git"
+    "url": "https://github.com/hyperweavers/hyperweavers.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/HyperWeavers/hyperweavers.github.io/issues"
+    "url": "https://github.com/hyperweavers/hyperweavers.github.io/issues"
   },
-  "license": "GPLv3",
-  "main": ".eslintrc.js",
+  "license": "GPL-3.0-only",
   "private": true,
   "scripts": {
     "start": "run-s build watch",
